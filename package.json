@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/yargs": "^17.0.19",
+    "inquirer": "^9.1.4",
+    "yargs": "^17.6.2"
+  }
+}
