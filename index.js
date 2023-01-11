@@ -17,7 +17,6 @@ class FinnBattle {
         let battles = this.villains
             .sort((a, b) => a - b)
             .filter(villain => {
-            console.log('villano', villain);
             if (this.p > villain) {
                 this.p += villain;
                 return true;
@@ -28,7 +27,6 @@ class FinnBattle {
                     return true;
                 }
                 else {
-                    console.log('cant defeat', villain);
                     return false;
                 }
             }

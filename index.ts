@@ -34,7 +34,6 @@ class FinnBattle implements Warrior {
         let battles = this.villains
             .sort((a: number, b: number) => a - b)
             .filter(villain => {
-                console.log('villano', villain);
                 if (this.p > villain) {
                     this.p += villain;
                     return true;
@@ -43,7 +42,6 @@ class FinnBattle implements Warrior {
                         this.p += villain;
                         return true;
                     } else {
-                        console.log('cant defeat', villain)
                         return false;
                     }
                 }
